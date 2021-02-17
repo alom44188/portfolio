@@ -1,0 +1,266 @@
+
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.portfolio{
+
+    background-image:url(img/Untitled.png),url(img/programmer-1653351_1280.png);
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom center;
+    opacity: 1;
+    
+
+
+}
+
+.firstsection{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.firstsection .logo{
+width: 45%;
+
+
+}
+.logo .img{
+    padding: 15px 14px;
+    margin-right: 35px;
+    padding-right: 14px;
+}
+
+.firstsection .menu{
+
+width:45%;
+}
+
+.menu ul{
+
+    padding: 80px 3px;
+    margin-left: 105px;
+
+}
+
+.menu ul li{
+
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+
+    color: white;
+
+}
+
+.secsection{
+    height: 250px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    border: 3px solid wheat;
+    border-radius: 24px;
+    padding: 10px 10px;
+    background-color: #00000082;
+    box-shadow: 0 0 7px red;
+    }
+
+.secsection h2{
+
+    text-align: center;
+    color: white;
+    padding: 19px 30px;
+    font-size: 35px;
+}
+
+.secsection h4{
+
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px
+}
+
+.secsection .myservices{
+    margin: 0 auto;
+    width: 37%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 18px;
+}
+
+.myservices a{
+
+    text-decoration: none;
+    color: wheat;
+    margin-left: -23px;
+    border: 2px solid gray;
+    padding: 5px 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 3px red;
+}
+
+.myservices a:hover{
+    background-color: rgb(71, 71, 71);
+    border-radius: 0;
+}
+
+.ser h2{
+    color: white;
+    margin-top: 0px;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 2px solid gray;
+    padding: 4px 4px;
+    padding-left: 119px;
+    box-shadow: 0 0 4px red;
+}
+.tsection{
+
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 85px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.tsection .serv{
+
+    width: 25%;
+    height: 230px;
+    border: 3px solid rgb(209, 124, 124);
+    padding: 15px 15px;
+    border-radius: 0 42px;
+    box-shadow: 0 0 5px wheat;
+
+}
+
+.serv h3{
+
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.serv p{
+
+    color: wheat;
+    text-align: justify;
+    font-family: 'Newsreader', serif;
+    line-height: 20px;
+
+}
+
+.contitle{
+    color: wheat;
+    width: 150px;
+    margin: o auto;
+    text-align: center;
+    margin-left: 585px;
+    margin-top: 100px;
+    border: 2px solid wheat;
+    padding: 5px 20px;
+    box-shadow: 0 0 6px 
+}
+.contact{
+    width: 17%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid gainsboro;
+    padding: 22px 24px;
+    padding-left: 76px;
+    box-shadow: 0 0 10px yellow;
+    margin-bottom: 60px;
+}
+
+.pinfo h2,h4{
+    color: wheat;
+    line-height: 30px;
+}
+.contact2{
+
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid gainsboro;
+    padding: 22px 24px;
+    padding-left: 76px;
+    box-shadow: 0 0 10px yellow;
+    margin-bottom: 60px;  
+}
+
+.contact2 input{
+
+    width: 80%;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: gainsboro;
+}
+
+.contact2 textarea{
+    width: 80%;
+    height: 120px;
+    font-size: 18px;
+    margin-top: 28px;
+    border-radius: 11px;
+    background-color: gainsboro;  
+}
+
+.contact2 .submit{
+    width: 80%;
+    height: 45px;
+    font-size: 25px;
+    margin-top: 18px;
+    border-radius: 14px;
+    padding: 5px 5px; 
+    cursor: pointer;
+}
+
+.contact2 .submit:hover{
+
+   animation: alom 2s;
+   
+
+}
+
+.copy{
+    color: wheat;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+@keyframes alom{
+
+    0%{
+        background:linear-gradient(red,green);
+    }
+
+    100%{
+        background: linear-gradient(green,red);
+    }
+}
